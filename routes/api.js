@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creatorList = ['@zahirrr','@zhirrrgans','@zhirr_ajalah','@zahiranjay', '@zeebotwasss','@zhirrganteng','@zahirrgantengg'];
+var creatorList = ['@zero','@zerogans','@zee','@zeeanjay', '@zeebotwasss','@zeroi','@zerogantengg'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
 
@@ -112,7 +112,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6283898698875 , key nya gratis kok gan, jadi santuyy ajaa'
+        message: 'apikey invalid, gak punya apikey? chat gw aja yaaa di wa.me/6285746619545 , key nya gratis kok gan, jadi santuyy ajaa'
     },
     invalidlink: {
         status: false,
@@ -2520,7 +2520,7 @@ router.get('/yutub/audio', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-             	author: 'Zhirrr',
+             	author: 'Zero',
                  result
              })
          })
